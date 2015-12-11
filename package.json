@@ -1,0 +1,27 @@
+{
+  "name": "mysensors-graphite",
+  "version": "1.0.0",
+  "description": "Daemon to receive mysensors data and store it in graphite",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elandesign/mysensors-graphite.git"
+  },
+  "keywords": [
+    "mysensors",
+    "graphite"
+  ],
+  "author": "Paul Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elandesign/mysensors-graphite/issues"
+  },
+  "homepage": "https://github.com/elandesign/mysensors-graphite#readme",
+  "dependencies": {
+    "graphite-udp": "^1.0.0",
+    "simpletcp": "^0.1.3"
+  }
+}
